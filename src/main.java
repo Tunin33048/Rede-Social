@@ -17,11 +17,11 @@ public class main {
 
         redeSociais[0] = facebook;
         redeSociais[1] = instagram;
+        //redeSociais[2] = googlePlus;
+        //redeSociais[3] = twitter;
 
         System.out.println("--------------------------------------\n");
         Usuario redesUsuario = new Usuario(redeSociais);
-        instagram.compartilhar();
-        instagram.fazStreaming();
-
+        
     }
 }
